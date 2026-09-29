@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CriacaoDeContatos
 {
-    public interface IContatoFormatter
+    internal interface IContatoFormatter
     {
         void ExibirContatos(List<Contato> contatos);
     }
